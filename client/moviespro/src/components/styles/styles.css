@@ -1,0 +1,41 @@
+.logH{
+    font-size: 40px;
+}
+
+.detailsRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.body{
+    background-color: black;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    /* background-color:green; */
+    padding:20px;
+    background-image: linear-gradient(to bottom right, rgb(171, 236, 204), rgb(0, 110, 255));
+}
+.genres{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.subsWatch{
+    margin-left: 5px;
+}
+.subBtn{
+    margin:10px;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    background-image: linear-gradient(to bottom right, rgb(10, 160, 85), rgb(0, 110, 255));
+
+}
